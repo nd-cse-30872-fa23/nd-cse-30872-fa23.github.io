@@ -1,4 +1,4 @@
-- name:     Katherine Mora
+- name:     Katherine Morales
   netid:    kmorales
   github:   kmorales
 
@@ -6,24 +6,14 @@
   netid:    kfriday
   github:   kfriday32
 
-- name:     Christine Van Kirk
-  netid:    cvankir2
-  github:   cvankir2
+- name:     Mark Van Kirk
+  netid:    mvankir
+  github:   mvankir
 
-- name:     Mia Manabat
-  netid:    mmanabat
-  github:   miamanabat
+- name:     Sophia Lombardo
+  netid:    slombardo
+  github:   slombardo
 
-- name:     Sebastian Gutierrez
-  netid:    sgutier5
-  github:   sebmaster36
-
-- name:     Joshua Russell
-  netid:    jrusse22
-  github:   jrusse22
-
-- name:     Mark Schermerhorn
-  netid:    mscherm2 
-  github:   mscherm2
-  conflicts:
-    - dscherme
+- name:     Eduardo Yepiz
+  netid:    eyepiz
+  github:   eyepiz
