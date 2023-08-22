@@ -27,7 +27,7 @@ jobs:
         if [ -n "$GITHUB_HEAD_REF" ]; then git checkout "$GITHUB_HEAD_REF"; fi
         git config --local user.name "GitHub Actions"
         git config --local user.email "<>"
-        git checkout gh-pages
+        git checkout -f gh-pages
         git pull --rebase --autostash origin main
         make clean && make build
         git add -f docs/
