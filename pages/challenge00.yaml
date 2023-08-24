@@ -119,18 +119,18 @@ body:       |
     To submit your work, follow the same procedure you used for [Reading 01]:
 
         :::bash
-        $ cd path/to/cse-30872-su23-assignments     # Go to assignments repository
+        $ cd path/to/cse-30872-fa23-assignments     # Go to assignments repository
         $ git checkout master                       # Make sure we are on master
         $ git pull --rebase                         # Pull any changes from GitHub
 
-        $ git checkout -b challenge01               # Create and checkout challenge01 branch
+        $ git checkout -b challenge00               # Create and checkout challenge00 branch
 
-        $ $EDITOR challenge01/program.cpp           # Edit your code
+        $ $EDITOR challenge00/program.cpp           # Edit your code
 
-        $ git add challenge01/program.cpp           # Stage your changes
-        $ git commit -m "challenge01: done"         # Commit your changes
+        $ git add challenge00/program.cpp           # Stage your changes
+        $ git commit -m "challenge00: done"         # Commit your changes
 
-        $ git push -u origin challenge01            # Send changes to GitHub
+        $ git push -u origin challenge00            # Send changes to GitHub
 
     <div class="alert alert-success" markdown="1">
     #### <i class="fa fa-code"></i> Programming Languages
@@ -151,13 +151,13 @@ body:       |
         :::bash
         # Check code by submitting to dredd using provided script
         $ .scripts/check.py
-        Checking challenge01 program.py ...
+        Checking challenge00 program.py ...
           Result Success
             Time 0.31
            Score 6.00 / 6.00
 
         # Check code by submitting to dredd using curl
-        $ curl -F source=@challenge01/program.cpp https://dredd.h4x0r.space/code/cse-30872-su23/challenge01
+        $ curl -F source=@challenge00/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa23/challenge00
         {"result": "Success", "score": 6, "time": 0.31440091133117676, "value": 6, "status": 0}
 
     The **score** returned from [dredd] will be one of the following:
