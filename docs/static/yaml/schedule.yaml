@@ -41,15 +41,15 @@
             link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0d2c07fc-41c1-414b-a23d-af000114e7c0
 
       - date:           Wed 08/30
-        topics:         Cancelled
-
-      - date:           Fri 09/01
         topics:         Stacks, Queues
         items:
           - name:       Slides
             link:       https://docs.google.com/presentation/d/1lzuMS5Pe7HD34D5nTyCoTNmTudIP9e8fprLY_Ezp_4o/edit?usp=sharing
           - name:       Panopto
             link:       https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=a03468d9-4331-4e6e-8a1f-af04011986db
+
+      - date:           Fri 09/01
+        topics:         TBD
 
       - date:           Sat 09/02
         assignments:
