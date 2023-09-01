@@ -50,6 +50,10 @@
 
       - date:           Fri 09/01
         topics:         Debugging
+        items:
+          - name:       Slides
+            link:       https://docs.google.com/presentation/d/1RfyS74AmfEqi1J1pweEyYTJ519qUuXHB/edit?usp=sharing&ouid=111601855049772661603&rtpof=true&sd=true 
+
 
       - date:           Sat 09/02
         assignments:
