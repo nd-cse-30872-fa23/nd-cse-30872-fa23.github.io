@@ -127,7 +127,7 @@ body:       |
             Time 0.16
            Score 6.00 / 6.00
 
-        $ curl -F source=@challenge03/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa22/challenge03
+        $ curl -F source=@challenge03/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa23/challenge03
         {"result": "Success", "score": 6, "time": 0.16451787948608398, "value": 6, "status": 0}
 
     <div class="alert alert-success" markdown="1">
