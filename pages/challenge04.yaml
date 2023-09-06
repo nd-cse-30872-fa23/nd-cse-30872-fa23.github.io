@@ -57,7 +57,7 @@ body:       |
 
     ## Input
 
-    You will be given a series of input test cases, each representing a
+    You will be given a series of input test cases, in a stream, each representing a
     collection of bottles you need to arrange according to the rules described
     above.
 
@@ -225,27 +225,27 @@ body:       |
 
     ## Submission
 
-    To submit your work, follow the same procedure you used for [Reading 01]:
+    To submit your work, follow the same procedure you used for [Reading 02]:
 
         :::bash
-        $ cd path/to/cse-30872-su23-assignments     # Go to assignments repository
+        $ cd path/to/cse-30872-fa23-assignments     # Go to assignments repository
         $ git checkout master                       # Make sure we are on master
         $ git pull --rebase                         # Pull any changes from GitHub
 
-        $ git checkout -b challenge05               # Create and checkout challenge05 branch
+        $ git checkout -b challenge04               # Create and checkout challenge05 branch
 
-        $ $EDITOR challenge05/program.cpp           # Edit your code
+        $ $EDITOR challenge04/program.cpp           # Edit your code
 
-        $ git add challenge05/program.cpp           # Stage your changes
-        $ git commit -m "challenge05: done"         # Commit your changes
+        $ git add challenge04/program.cpp           # Stage your changes
+        $ git commit -m "challenge04: done"         # Commit your changes
 
-        $ git push -u origin challenge05            # Send changes to GitHub
+        $ git push -u origin challenge04            # Send changes to GitHub
 
     To check your code, you can use the `.scripts/check.py` script or [curl]:
 
         :::bash
         $ .scripts/check.py
-        Checking challenge05 program.cpp ...
+        Checking challenge04 program.cpp ...
           Result Success
             Time 0.62
            Score 6.00 / 6.00
