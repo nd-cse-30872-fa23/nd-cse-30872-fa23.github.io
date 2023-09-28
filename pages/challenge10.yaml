@@ -136,29 +136,29 @@ body:       |
     To submit your work, follow the same procedure you used for [Reading 01]:
 
         :::bash
-        $ cd path/to/cse-30872-su23-assignments     # Go to assignments repository
+        $ cd path/to/cse-30872-fa23-assignments     # Go to assignments repository
         $ git checkout master                       # Make sure we are on master
         $ git pull --rebase                         # Pull any changes from GitHub
 
-        $ git checkout -b challenge09               # Create and checkout challenge09 branch
+        $ git checkout -b challenge10               # Create and checkout challenge09 branch
 
-        $ $EDITOR challenge09/program.cpp           # Edit your code
+        $ $EDITOR challenge10/program.cpp           # Edit your code
 
-        $ git add challenge09/program.cpp           # Stage your changes
+        $ git add challenge10/program.cpp           # Stage your changes
         $ git commit -m "challenge09: done"         # Commit your changes
 
-        $ git push -u origin challenge09            # Send changes to GitHub
+        $ git push -u origin challenge10            # Send changes to GitHub
 
     To check your code, you can use the `.scripts/check.py` script or [curl]:
 
         :::bash
         $ .scripts/check.py
-        Checking challenge09 program.c ...
+        Checking challenge10 program.c ...
           Result Success
             Time 0.00
            Score 6.00 / 6.00
 
-        $ curl -F source=@challenge09/program.cpp https://dredd.h4x0r.space/code/cse-30872-su23/challenge09
+        $ curl -F source=@challenge10/program.cpp https://dredd.h4x0r.space/code/cse-30872-fa23/challenge10
         {"result": "Success", "score": 6, "time": 0.0033686161041259766, "value": 6, "status": 0}
 
     <div class="alert alert-success" markdown="1">
