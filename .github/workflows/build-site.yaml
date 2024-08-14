@@ -31,5 +31,5 @@ jobs:
         git pull --rebase --autostash origin main
         make clean && make build
         git add -f docs/
-        git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
+        git commit -m 'GitHub Actions: build sites' || echo 'nothing to commit'
         git push -f origin gh-pages || echo 'nothing to push'
